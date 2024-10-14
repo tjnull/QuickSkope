@@ -20,15 +20,9 @@ Before running QuickSkope, ensure you have the following installed:
 ## Installation
 
 1. Clone this repository to your local machine:
-    \`\`\`bash
+    ```
     git clone https://github.com/yourusername/QuickSkope.git
-    \`\`\`
-2. Navigate to the directory:
-    \`\`\`bash
-    cd QuickSkope
-    \`\`\`
-3. Run the Script
-    \`\`\`bash
+    cd Quickskope
     python quick-scope.py help
     Commands:
       validate <tenant_name>              - Validates a Netskope tenant name and prints the OrgKey.
@@ -36,21 +30,21 @@ Before running QuickSkope, ensure you have the following installed:
       download <tenant_name> <win/mac>    - Downloads the Netskope client for you to install.
       help                                - Displays this help menu.
       no-banner                           - Suppresses the ASCII banner.
-    \`\`\`
+    ```
 
 ## Usage
 
 To use QuickSkope, provide the tenant name and a valid email address:
 
-\`\`\`bash
+```
 python quickskope.py validate <tenant-name>
-\`\`\`
+```
 
 ### Example:
 
-\`\`\`bash
+```
 python quick-skope.py config <tenant_name> <email>
-\`\`\`
+```
 
 Once executed, the script will:
 
@@ -74,7 +68,7 @@ Once executed, the script will:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Credit
-- 0xDisrel: Helping me write the proof of concept and working with me on the research: https://x.com/0xDISREL
+- 0xDisrel: Helping me write the proof of concept and working with me on the research: [https://x.com/0xDISREL](https://x.com/0xDISREL)
 - Sander Di Wit: Uncovering the Orginal Vulnerability to NetSkope
 
 ## References
