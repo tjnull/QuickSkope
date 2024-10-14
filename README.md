@@ -3,6 +3,8 @@
 
 **QuickSkope** is a proof-of-concept (POC) Python script designed to streamline the process of obtaining a user's configuration file from Netskope. By providing the user’s tenant name and a valid email address, QuickSkope automates the retrieval and download of the configuration file, saving it locally as `nsbranding.json` upon success.
 
+More information on the research we did to investigate this: [https://quickskope.com/vulnerability/research/2024/10/14/Quick-Skoping.html](https://quickskope.com/vulnerability/research/2024/10/14/Quick-Skoping.html)
+
 ## Disclaimer:
 This Python script is intended for educational purposes only. It demonstrates a proof of concept for automating the retrieval of user configuration files using the CVE-2024-7401 vulnerability. Please use this script responsibly and only on systems you are authorized to test. Unauthorized or malicious use is strictly prohibited.
 
