@@ -70,7 +70,7 @@ Once executed, the script will:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Credit
-- 0xDisrel: Helping me write the proof of concept and working with me on the research: [https://x.com/0xDISREL](https://x.com/0xDISREL)
+- 0xDISREL: Helping me write the proof of concept and working with me on the research: [https://x.com/0xDISREL](https://x.com/0xDISREL)
 - Sander Di Wit: Uncovering the Orginal Vulnerability to NetSkope
 
 ## References
